@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+  background-color: #fff;
+}
+.container {
+  max-width: 1300px;
+  width: 80%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.header-main > .container > ul > li > a:hover,
+.header-menu-dropdown > a:hover {
+  color: #3b63b7;
+}
+li {
+  list-style: none;
+}
+.section-title {
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.white-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: lighter;
+}
+.more-info-button {
+  cursor: pointer;
+  background: #fff;
+  border-radius: 2px;
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  padding: 9px 32px;
+}
+
+/* ************************** */
+
+.header-info {
+  background-color: #2e364e;
+  color: #fff;
+}
+.header-info > .container {
+  justify-content: flex-end;
+}
+.header-info > .container > p {
+  margin: 12px 0;
+  margin-right: 66px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+.header-info > .container > p > img {
+  height: 12px;
+  margin-right: 10px;
+}
+.social > a {
+  margin-left: 1px;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  background-color: #475374;
+}
+
+/* ************************** */
+
+#logo {
+  position: absolute;
+}
+.header-main > .container > ul {
+  margin-left: 17%;
+}
+.header-main > .container > ul > li > a {
+  padding: 31px 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+}
+.header-main > .container > ul > li {
+  position: relative;
+}
+.header-main > .container > ul {
+  width: 60%;
+}
+.header-menu-dropdown {
+  position: absolute;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  padding: 15px 50px 30px 20px;
+  display: none;
+  flex-direction: column;
+  top: 100%;
+  width: 246px;
+  left: 0;
+}
+.header-menu-dropdown > a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+.header-main > .container > ul > li:hover > .header-menu-dropdown {
+  display: flex;
+}
+.header-main > .container > ul > li > a > img {
+  margin-left: 5px;
+}
+.header-button {
+  cursor: pointer;
+  background: #3b63b7;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  border: none;
+  padding: 11px 32px;
+}
+
+/* ************************** */
+
+.promo {
+  background-image: url(../images/promo1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.promo > .container {
+  padding-top: 64px;
+  padding-bottom: 70px;
+}
+.promo-title {
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  margin-bottom: 46px;
+  width: 45%;
+  color: #fff;
+}
+.promo > .container > .header-button {
+  background-color: #5495ff;
+}
+
+/* ************************************** */
+
+.main-footer {
+  background-image: url(../images/footer-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.main-footer > .container {
+  position: relative;
+}
+.main-footer > * > .logo {
+  position: absolute;
+  top: -50px;
+}
+.footer-info {
+  margin-left: 24%;
+}
+.footer-info > p {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.footer-info > div {
+  margin-top: 12px;
+}
+.footer-info > div > button {
+  background-color: #5495ff;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+}
+.footer-links {
+  align-items: flex-start;
+}
+.footer-links-column {
+  flex-direction: column;
+  margin-left: 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-links-column > a {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-links-column > a:hover {
+  text-decoration: underline;
+}
+.footer-info > div > .social > a {
+  background-color: #212634;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* ********************************************* */
+
+.footer-extra {
+  background-color: #212634;
+}
+.footer-extra > .container {
+  padding: 13px 0;
+}
+.footer-extra > .container > p {
+  font-size: 12px;
+}
