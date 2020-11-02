@@ -110,6 +110,7 @@ li {
   top: 100%;
   width: 246px;
   left: 0;
+  z-index: 50;
 }
 .header-menu-dropdown > a {
   font-size: 14px;
@@ -226,4 +227,8 @@ li {
 }
 .footer-extra > .container > p {
   font-size: 12px;
+}
+.footer-extra > * > a {
+  color: #fff;
+  text-decoration: underline;
 }

@@ -1,0 +1,93 @@
+.title {
+    background-image: url(../images/Rectangle\ 624.jpg);
+    padding-top: 25px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.title > * > p:first-of-type {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ********************************************************** */
+
+.contacts-body {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.contacts-body > .container {
+    position: relative;
+    flex-wrap: wrap;
+}
+.info-about {
+    flex-basis: 40%;
+}
+.info-about > p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.info-about > .social {
+    margin: 25px 0;
+    justify-content: flex-start;
+}
+.info-about > .social > a {
+  background-color: #212634;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  margin-right: 13px;
+}
+.info-about > .social > a:last-of-type {
+    background-color: #fff;
+}
+
+.contacts-body > .container > form {
+    width: 55%;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    padding: 35px 30px 55px 35px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background-color: #fff;
+}
+.contacts-body > .container > form > h3 {
+    flex-basis: 100%;
+}
+.contacts-body > .container > form > #input-name,
+.contacts-body > .container > form > #input-tel,
+.contacts-body > .container > form > #input-email {
+    box-shadow: inset 0px 2px 6px rgba(3, 22, 52, 0.08);
+    background-color: #f1f5f7;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 2px;
+    width: 32%;
+    margin-bottom: 20px;
+    margin-top: 33px;
+}
+.contacts-body > .container > form > div > p {
+    color: black;
+    font-size: 11px;
+    line-height: 13px;
+}
+.contacts-body > .container > form > div > p:first-of-type {
+    margin-bottom: 14px;
+}
+.contacts-body > .container > form > div {
+    flex-basis: 55%;
+}
+.contacts-body > .container > form > .header-button {
+    padding: 11px 50px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.contacts-body > .container > img {
+    width: 100%;
+    height: 472px;
+    margin-top: 35px;
+}
