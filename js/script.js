@@ -23,11 +23,10 @@ swiperNext.addEventListener('click', function() {
 $('#input-tel').mask('+7 (999) 999 99 99');
 
 var partnersMainPageSwiper = new Swiper('.partners-swiper', {
-    speed: 400,
     loop: true,
-    spaceBetween: 10,
-    slidesPerView: 'auto',
+    speed: 400,
     loopedSlides: 4,
+    slidesPerView: 'auto',
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
