@@ -98,7 +98,7 @@
 .sertificates-item:last-of-type > img {
     width: auto;
 }
-
+/* 
 .focus-sertificate {
     position: fixed;
     background-image: url(../images/Group_1245.png);
@@ -114,4 +114,4 @@
 }
 .focus-sertificate > img {
     display: none;
-}
+} */
