@@ -1,0 +1,58 @@
+.title {
+    background-image: url(../images/Rectangle\ 615.png);
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.title > * > p:first-of-type {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ******************************** */
+.gallery {
+    padding: 0!important;
+    background-color: #fff!important;
+}
+
+nav {
+    justify-content: flex-start!important;
+    padding: 40px 0;
+}
+nav > p {
+    cursor: pointer;
+    color: #000;
+    background-color: #e8f2f6;
+    border-radius: 2px;
+    padding: 11px 25px 10px 26px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+nav > p:hover {
+    background-color: #d8e7ef;
+}
+.focused {
+    color: #fff;
+    background-color: #3b63b8;
+}
+.focused:hover {
+    color: #fff;
+    background-color: #3b63b8;
+}
+.gallery-block {
+    display: none;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.gallery-block > img {
+    width: 32%;
+    margin-bottom: 2%;
+}
+.focused-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}

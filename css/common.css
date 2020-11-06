@@ -232,3 +232,29 @@ li {
   color: #fff;
   text-decoration: underline;
 }
+
+/* *********************************************************************** */
+/* *********************************************************************** */
+
+.text {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.text-title {
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 0.02em;
+}
+.under-photo {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+hr {
+  border: 0.5px solid #000;
+  height: 0.1px;
+}

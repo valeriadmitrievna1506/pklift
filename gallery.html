@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./font/Roboto.css">
-    <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/main-page.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
-    <title>Контакты</title>
+    <title>Галерея</title>
 </head>
 <body>
     <header>
@@ -60,41 +62,85 @@
     <main>
         <section class="title">
             <div class="container">
-                <p><u>Главная</u> / Контакты</p>
-                <p class="section-title">Контакты</p>
+                <p><u>Главная</u> / Галерея</p>
+                <p class="section-title">Галерея</p>
             </div>
         </section>
-        <section class="contacts-body">
-            <div class="container flex">
-                <div class="info-about">
-                    <p>129075 7. Москва, ул. Шереметьевская, д. 85, стр. 2.</p>
-                    <p>Тел. / факс (495) 782-12-26</p>
-                    <p>info@pklift.ru</p>
-                    <div class="social flex">
-                        <a class="flex" href="https://instagram.com"><img src="./images/inst.svg" alt=""></a>
-                        <a class="flex" href="https://vk.com"><img src="./images/vk.svg" alt=""></a>
-                        <a href="https://skype.com"><img src="./images/Vector.svg" alt=""></a>
-                    </div>
-                    <p>
-                        Если Вы еще не определились с техническим обслуживанием, монтажом лифтов, можете
-                        заказать обратную связь, или написать нам письмо. Будем рады сотрудничеству.
-                    </p>
+        <section class="gallery">
+            <div class="container">
+                <nav class="flex">
+                    <p class="focused" id="autos-nav">Наши Автомобили</p>
+                    <p id="lifts-nav">Монтаж лифтового оборудования</p>
+                    <p id="warehouse-nav">Наш склад</p>
+                    <p id="workers-nav">Наши сотрудники</p>
+                </nav>
+                <div class="gallery-block focused-block" id="autos">
+                    <img src="./images/Rectangle 643.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 646.png" alt="">
+                    <img src="./images/Rectangle 647.png" alt="">
+                    <img src="./images/Rectangle 648.png" alt="">
+                    <img src="./images/Rectangle 649.png" alt="">
+                    <img src="./images/Rectangle 650.png" alt="">
+                    <img src="./images/Rectangle 651.png" alt="">
+                    <img src="./images/Rectangle 651.png" alt="">
                 </div>
-                <form action="" class="flex">
-                    <h3>Написать нам</h3>
-                    <input type="text" required name="name" id="input-name" placeholder="ФИО*">
-                    <input type="tel" required name="tel" id="input-tel" placeholder="+7 (___) ___ __ __*">
-                    <input type="email" required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                     id="input-email" placeholder="Введите Ваш E-mail*">
-                    <div>
-                        <p class="white-text">Поля, отмеченные * - обязательные для заполнения.</p>
-                        <p class="white-text">Нажимая на кнопку "Отправить", я подтвержадю, что ознакомился с
-                          <a href="#" style="color: red;">соглашением на обработку персональных данных</a>
-                        </p>
-                    </div>
-                    <input type="submit" value="Отправить" class="header-button">
+                <div class="gallery-block" id="lifts">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 645.png" alt="">
+                    <img src="./images/Rectangle 651.png" alt="">
+                    <img src="./images/Rectangle 651.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <p class="section-title">Обратная связь</p>
+                <form action="#" class="flex">
+                    <input type="text" name="name" id="input-name" placeholder="Введите Ваше имя">
+                    <input required type="email" name="email" id="input-email" placeholder="Введите Ваш E-mail*"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <input required type="tel" name="tel" id="input-tel" placeholder="+7 (___) ___ __ __*">
+                    <input type="submit" class="header-button" value="Заказать звонок">
                 </form>
-                <img src="./images/image 1.png" alt="">
+                <p class="white-text">Поля, отмеченные * - обязательные для заполнения.</p>
+                <p class="white-text">Нажимая на кнопку "Отправить", я подтвержадю, что ознакомился с
+                    <a href="#">соглашением на обработку персональных данных</a>
+                </p>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <p class="section-title">Наши партнеры</p>
+                <!-- Slider main container -->
+                <div class="swiper-container partners-swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="partners-block swiper-wrapper flex">
+                        <!-- Slides -->
+                        <img src="./images/partners/kmz.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/kone.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/otis.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/shhlz.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/sigma.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/kleemann.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/mogilev.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/schindler.png" alt="" class="partner-slide swiper-slide">
+                        <img src="./images/partners/sodimas.png" alt="" class="partner-slide swiper-slide">
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="slider-navigation flex">
+                    <img src="./images/left-arrow-black.svg" id="swiperPrevP" alt="">
+                    <img src="./images/right-arrow-black.svg" id="swiperNextP" alt="">
+                </div>
             </div>
         </section>
     </main>
@@ -150,8 +196,31 @@
     </footer>
 
     <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
+    <script>
+        var partnersMainPageSwiper = new Swiper('.partners-swiper', {
+            loop: true,
+            speed: 400,
+            loopedSlides: 4,
+            slidesPerView: 'auto',
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
 
-    <script src="./js/script.js"></script>
+        const swiperPrevP = document.querySelector('#swiperPrevP');
+        const swiperNextP = document.querySelector('#swiperNextP');
+
+        wiperPrevP.addEventListener('click', function() {
+            partnersMainPageSwiper.slidePrev();
+        });
+        swiperNextP.addEventListener('click', function() {
+            partnersMainPageSwiper.slideNext();
+        });
+
+        $('#input-tel').mask('+7 (999) 999 99 99');
+    </script>
 </body>
 </html>

@@ -6,9 +6,9 @@
 
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./font/Roboto.css">
-    <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/company.css">
 
-    <title>Контакты</title>
+    <title>О компании</title>
 </head>
 <body>
     <header>
@@ -60,41 +60,69 @@
     <main>
         <section class="title">
             <div class="container">
-                <p><u>Главная</u> / Контакты</p>
-                <p class="section-title">Контакты</p>
+                <p><u>Главная</u> / О компании</p>
+                <p class="section-title">О компании</p>
             </div>
         </section>
-        <section class="contacts-body">
+        <section class="about-main">
+            <div class="container">
+                <ul>
+                    <li>ПК ЛИФТ была основана в 2002 году.</li>
+                    <li>С момента образования компания всё время развивается.</li>
+                    <li>
+                        Мы всегда следим за качеством наших работ, наш персонал постоянно
+                        проходит обучение, мы никогда не стоим на месте.
+                    </li>
+                    <li>
+                        Мы занимаемся проектированием и поставкой лифтового оборудования, эскалаторов,
+                        а также их монтажом , техническим обслуживанием.
+                    </li>
+                    <li>
+                        Техническое обслуживание осуществляем во всех районах Москвы и области Большой
+                        штат механиков и инженеров даёт нам возможность мгновенно реагировать на
+                        неисправность лифта, эскалатора, инвалидного подъемника и т. д.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about-text-1">
             <div class="container flex">
-                <div class="info-about">
-                    <p>129075 7. Москва, ул. Шереметьевская, д. 85, стр. 2.</p>
-                    <p>Тел. / факс (495) 782-12-26</p>
-                    <p>info@pklift.ru</p>
-                    <div class="social flex">
-                        <a class="flex" href="https://instagram.com"><img src="./images/inst.svg" alt=""></a>
-                        <a class="flex" href="https://vk.com"><img src="./images/vk.svg" alt=""></a>
-                        <a href="https://skype.com"><img src="./images/Vector.svg" alt=""></a>
+                <p class="text">
+                    Также мы имеем большой опыт работы в сфере монтажа лифтов, эскалаторов, инвалидных
+                    подъемников и т.д. Нами было установлено более 1000 лифтов по всей России таких
+                    современных марок, как KLEEMANN, KONE, OTIS, Щ.Л.З, К.М.З. и мн. др. Мы профессионально
+                    монтируем грузовые лифты. Наша компания берется за сложную, на первый взгляд, работу и
+                    с легкостью справляется с ней благодаря большому опыту, грамотным специалистам, знающим
+                    свое дело, профессиональному инструменту.
+                </p>
+            </div>
+        </section>
+        <section class="about-text-2">
+            <div class="container flex">
+                <p class="text">
+                    Компания ПК ЛИФТ отслеживает все новинки лифтового оборудования. Мы регулярно участвуем
+                    в российских и международных выставках и семинарах. В 2010 году мы начали работу над
+                    расширением компании. За это время ПК ЛИФТ заключило договоры о прямых поставках с
+                    заводами-изготовителями, был сформирован штаб квалифицированных сотрудников с многолетним
+                    опытом. Все они- монтажники, механики, инженеры, менеджеры - профессионалы своего дела,
+                    а значит, крепкие звенья в цепи успеха.
+                </p>
+            </div>
+        </section>
+        <section class="sertificates">
+            <div class="container">
+                <p class="section-title">Сертификаты и допуски</p>
+                <div class="sertificates-block flex">
+                    <div class="sertificates-item flex">
+                            <img src="./images/Group_1197.png" alt="">
                     </div>
-                    <p>
-                        Если Вы еще не определились с техническим обслуживанием, монтажом лифтов, можете
-                        заказать обратную связь, или написать нам письмо. Будем рады сотрудничеству.
-                    </p>
+                    <div class="sertificates-item flex">
+                            <img src="./images/_1.png" alt="">
+                    </div>
+                    <div class="sertificates-item flex">
+                            <img src="./images/2362_001.png" alt="">
+                    </div>
                 </div>
-                <form action="" class="flex">
-                    <h3>Написать нам</h3>
-                    <input type="text" required name="name" id="input-name" placeholder="ФИО*">
-                    <input type="tel" required name="tel" id="input-tel" placeholder="+7 (___) ___ __ __*">
-                    <input type="email" required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                     id="input-email" placeholder="Введите Ваш E-mail*">
-                    <div>
-                        <p class="white-text">Поля, отмеченные * - обязательные для заполнения.</p>
-                        <p class="white-text">Нажимая на кнопку "Отправить", я подтвержадю, что ознакомился с
-                          <a href="#" style="color: red;">соглашением на обработку персональных данных</a>
-                        </p>
-                    </div>
-                    <input type="submit" value="Отправить" class="header-button">
-                </form>
-                <img src="./images/image 1.png" alt="">
             </div>
         </section>
     </main>
@@ -150,8 +178,7 @@
     </footer>
 
     <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/jquery.maskedinput.min.js"></script>
-
-    <script src="./js/script.js"></script>
+    <script src="./js/sertificate-focus.js"></script>
+    
 </body>
 </html>

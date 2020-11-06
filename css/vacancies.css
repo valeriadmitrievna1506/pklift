@@ -1,0 +1,63 @@
+.title {
+    background-image: url(../images/vacancies-background.png);
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.title > * > p:first-of-type {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ****************************************************** */
+
+.warranties {
+    background-color: #f1f3f4;
+    padding: 38px 0px 47px 0px;
+}
+.warranty-item {
+    flex-basis: 32%;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.warranty-item > .text {
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+/* ************************************************************ */
+
+.required > .container {
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-block > p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.text-block > p:first-of-type {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.call-us {
+    background-color: #3b63b7;
+    color: #fff;
+    padding: 21px 70px 27px 28px;
+}
+.call-us > p:first-of-type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.call-us > p:last-of-type {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+}
+.required > .container > img {
+    margin-top: 50px;
+}

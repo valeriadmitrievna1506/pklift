@@ -1,7 +1,9 @@
 .title {
     background-image: url(../images/Rectangle\ 624.png);
+    background-size: cover;
     padding-top: 25px;
     padding-bottom: 60px;
+    background-repeat: no-repeat;
     color: #fff;
 }
 .title > * > p:first-of-type {

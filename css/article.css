@@ -1,0 +1,77 @@
+.title {
+  background-color: #3b63b7;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.title > .container {
+  flex-direction: column !important;
+}
+.title > * > p {
+  text-align: center;
+}
+.section-title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* ****************************************************** */
+
+.text-page > .container {
+  max-width: 1000px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 35px 0;
+  flex-direction: column;
+}
+.text,
+.text-title,
+.article-footer,
+hr {
+    width: 100%;
+}
+.text {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.text-title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 25px;
+    letter-spacing: 0.02em;
+}
+.under-photo {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+hr {
+    border: 0.5px solid #000;
+    height: 0.1px;
+}
+.article-footer {
+    padding: 30px 0;
+}
+.article-footer > a {
+    font-size: 14px;
+    line-height: 16px;
+    background-image: url(../images/left-arrow-black.svg);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 5px;
+    padding-left: 15px;
+}
+.share-arcticle {
+    width: 30%;
+}
+.share-arcticle > p {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.share-arcticle > div {
+    width: 50%;
+}
