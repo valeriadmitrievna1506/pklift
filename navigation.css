@@ -7,24 +7,21 @@ body {
     font-size: 20px;
     font-family: 'Roboto';
     color: #fff;
-    background-image: url(./images/blue-background.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 150%;
+    background-color: #3b63b7!important;
 }
-a {
+body > ul > li > a {
     color: #fff;
     text-decoration: none;
 }
-a:hover {
+body > ul > li > a:hover {
     text-decoration: underline;
 }
-ul {
+body > ul {
     width: 50%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 5%;
 }
-li {
+body > ul > li {
     list-style: none;
     padding: 5px 0;
 }

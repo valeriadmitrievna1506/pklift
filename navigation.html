@@ -3,75 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./navigation.css" />
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./font/Roboto.css" />
+
     <title>Navigation</title>
   </head>
   <body>
+    <header>
+      <section class="header-info">
+          <div class="container flex">
+              <p><img src="./images/geo.svg" alt="">Москва, ул. Шереметьевская, д.85, стр.2</p>
+              <p><img src="./images/message.svg" alt="">info@pklift.ru</p>
+              <p><img src="./images/phone.svg" alt="">+7 (495) 782-12-26</p>
+              <div class="social flex">
+                  <a class="flex" href="https://instagram.com"><img src="./images/inst.svg" alt=""></a>
+                  <a class="flex" href="https://vk.com"><img src="./images/vk.svg" alt=""></a>
+              </div>
+          </div>
+      </section>
+      <!-- /.header-info -->
+      <section class="header-main">
+          <div class="container flex">
+              <img id="logo" src="./images/logo.png" alt="">
+                  <ul class="flex">
+                  <li><a href="./index.html">Главная</a></li>
+                  <li><a class="flex" href="#">Услуги<img src="./images/expand-header.svg" alt="">
+                  <div class="header-menu-dropdown">
+                      <a href="">Монтаж лифтов</a>
+                      <a href="">Грузовые лифты</a>
+                      <a href="">Эскалаторы</a>
+                      <a href="">Диагностика</a>
+                      <a href="">Шахты лифтов</a>
+                      <a href="">Отделка лифтовой кабины</a>
+                      <a href="">Лифтовые порталы</a>
+                  </div></li>
+                  <li></a>
+                  <a class="flex" href="./company.html">О компании<img src="./images/expand-header.svg" alt=""></a>
+                  <div class="header-menu-dropdown">
+                      <a href="./gallery.html">Галерея</a>
+                      <a href="./articles.html">Статьи</a>
+                      <a href="">Новости</a>
+                      <a href="">Нам доверяют</a>
+                  </div>
+                  </li>
+                  <li><a href="./vacancies.html">Вакансии</a></li>
+                  <li><a href="./contacts.html">Контакты</a></li>
+                  </ul>
+              <button class="header-button btn btn-primary" type="button" data-toggle="modal" data-target="#ModalCenter">
+                Заказать звонок
+              </button>
+
+              <!-- Modal -->
+              <!-- <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="ModalCenter" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+          </div>
+      </section>
+      <!-- /.header-main -->
+    </header>
+
     <ul>
-      <li>
-        <a href="./index.html" target="_blank" rel="noopener noreferrer">
-          Главная
-        </a>
-      </li>
-      <li>
-        <a href="./articles.html" target="_blank" rel="noopener noreferrer">
-          Статьи
-        </a>
-      </li>
-      <li>
-        <a href="./article.html" target="_blank" rel="noopener noreferrer">
-          Статья
-        </a>
-      </li>
-      <li>
-        <a href="./company.html" target="_blank" rel="noopener noreferrer">
-          О компании
-        </a>
-      </li>
-      <li>
-        <a href="./contacts.html" target="_blank" rel="noopener noreferrer">
-          Контакты
-        </a>
-      </li>
-      <li>
-        <a href="./elevators.html" target="_blank" rel="noopener noreferrer">
-          Эскалаторы
-        </a>
-      </li>
-      <li>
-        <a
-          href="./freight_lifts.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Грузовые лифты
-        </a>
-      </li>
-      <li>
-        <a href="./gallery.html" target="_blank" rel="noopener noreferrer">
-          Галерея
-        </a>
-      </li>
-      <li>
-        <a
-          href="./lift_installation.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Монтаж лифтов
-        </a>
-      </li>
-      <li>
-        <a href="./trust.html" target="_blank" rel="noopener noreferrer">
-          Нам доверяют
-        </a>
-      </li>
-      <li>
-        <a href="./vacancies.html" target="_blank" rel="noopener noreferrer">
-          Вакансии
-        </a>
-      </li>
+      <li><a href="./index.html" target="_blank" rel="noopener noreferrer">Главная</a></li>
+      <li><a href="./article.html" target="_blank" rel="noopener noreferrer">Статья</a></li>
+      <li><a href="./articles.html" target="_blank" rel="noopener noreferrer">Статьи</a></li>
+      <li><a href="./company.html" target="_blank" rel="noopener noreferrer">О компании</a></li>
+      <li><a href="./contacts.html" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+      <li><a href="./decorating.html" target="_blank" rel="noopener noreferrer">Отделка лифтовых кабин и обрамление лифтовых дверей</a></li>
+      <li><a href="./diagnostics.html" target="_blank" rel="noopener noreferrer">Диагностика</a></li>
+      <li><a href="./elevators.html" target="_blank" rel="noopener noreferrer">Эскалаторы</a></li>
+      <li><a href="./freight_lifts.html" target="_blank" rel="noopener noreferrer">Грузовые лифты</a></li>
+      <li><a href="./gallery.html" target="_blank" rel="noopener noreferrer">Галерея</a></li>
+      <li><a href="./lift_installation.html" target="_blank" rel="noopener noreferrer">Монтаж лифтового оборудования, монтаж лифтов в Москве</a></li>
+      <li><a href="./lift_portals.html" target="_blank" rel="noopener noreferrer">Монтаж лифтовых порталов</a></li>
+      <li><a href="./lift_shafts.html" target="_blank" rel="noopener noreferrer">Монтаж и изготовление шахты лифтов</a></li>
+      <li><a href="./trust.html" target="_blank" rel="noopener noreferrer">Нам доверяют</a></li>
+      <li><a href="./vacancies.html" target="_blank" rel="noopener noreferrer">Вакансии</a></li>
     </ul>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script>
+      $('#ModalCenter').modal(options)
+    </script>
+
   </body>
 </html>
