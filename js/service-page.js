@@ -3,6 +3,7 @@
 var serviceSwiper1 = new Swiper('#swc1', {
     speed: 400,
     slidesPerView: 1,
+    spaceBetween: 10,
     loop: true,
     navigation: {
         prevEl: '.swiper-button-prev',
@@ -25,6 +26,7 @@ swiperNext1.addEventListener('click', function() {
 var serviceSwiper2 = new Swiper('#swc2', {
     speed: 400,
     slidesPerView: 1,
+    spaceBetween: 10,
     loop: true,
     navigation: {
         prevEl: '.swiper-button-prev',
@@ -47,6 +49,7 @@ swiperNext2.addEventListener('click', function() {
 var serviceSwiper3 = new Swiper('#swc3', {
     speed: 400,
     slidesPerView: 1,
+    spaceBetween: 10,
     loop: true,
     navigation: {
         prevEl: '.swiper-button-prev',

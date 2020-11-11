@@ -80,11 +80,11 @@
 /* ************************************************************** */
 
 .block {
-  padding: 34px 31px 50px 31px;
+  padding: 34px 31px 30px 31px;
   height: 494px;
   border-radius: 2px;
   background-color: #3b63b7;
-  background-image: url(../images/blue-background.png);
+  background-image: url(../images/Group_1246.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -185,7 +185,7 @@
 .connect > .container > .block {
   height: auto;
   position: absolute;
-  bottom: 50%;
+  bottom: 30%;
   width: 47%;
   z-index: 100;
   padding: 34px 31px 28px 31px;
@@ -201,7 +201,7 @@
   margin-bottom: 20px;
 }
 .connect > .container > form > input {
-  width: 280px;
+  width: 49%!important;
   margin: 0!important;
   margin-bottom: 10px!important;
 }
@@ -214,4 +214,18 @@ input[type="submit"] {
 .connect > .container > form > p:nth-of-type(2) {
   margin-top: 5px!important;
   margin-bottom: 15px!important;
+}
+
+/* ********************************************************************** */
+
+.special-row {
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.special-row > * {
+  width: 47%;
+}
+.swiper-container {
+  margin: 0!important;
 }

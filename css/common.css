@@ -138,6 +138,9 @@ li {
   border: none;
   padding: 11px 32px;
 }
+.header-button:hover {
+  opacity: 0.8;
+}
 
 /* ************************** */
 

@@ -208,13 +208,17 @@
   margin-bottom: 40px;
 }
 .feedback > .container > form {
-  justify-content: center;
-  margin-bottom: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 8%;
+}
+.feedback > .container > form > .flex {
+  width: 100%;
 }
 #input-name,
 #input-email,
 #input-tel {
-  width: 280px;
+  width: 25%;
   background-color: #fff;
   border-radius: 2px;
   padding: 11px 25px;
@@ -225,6 +229,12 @@
 #input-email::placeholder,
 #input-tel::placeholder {
   color: #000;
+}
+.feedback > .container > form > p:first-of-type {
+  margin-top: 15px;
+}
+.feedback > .container > form > p {
+  width: 100%;
 }
 p > a {
   color: #fff;

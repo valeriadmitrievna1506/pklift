@@ -260,16 +260,19 @@
             <div class="container">
                 <p class="section-title">Обратная связь</p>
                 <form action="#" class="flex">
-                    <input type="text" name="name" id="input-name" placeholder="Введите Ваше имя">
-                    <input required type="email" name="email" id="input-email" placeholder="Введите Ваш E-mail*"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-                    <input required type="tel" name="tel" id="input-tel" placeholder="+7 (___) ___ __ __*">
-                    <input type="submit" class="header-button" value="Заказать звонок">
-                </form>
-                <p class="white-text">Поля, отмеченные * - обязательные для заполнения.</p>
-                <p class="white-text">Нажимая на кнопку "Отправить", я подтвержадю, что ознакомился с
+                    <div class="flex">
+                        <input type="text" name="name" id="input-name" placeholder="Введите Ваше имя">
+                        <input required type="email" name="email" id="input-email" placeholder="Введите Ваш E-mail*"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        <input required type="tel" name="tel" id="input-tel" placeholder="+7 (___) ___ __ __*">
+                        <input type="submit" class="header-button" value="Заказать звонок">
+                    </div>
+                    <p class="white-text">Поля, отмеченные * - обязательные для заполнения.</p>
+                    <p class="white-text">Нажимая на кнопку "Отправить", я подтвержадю, что ознакомился с
                     <a href="#">соглашением на обработку персональных данных</a>
-                </p>
+                    </p>
+                </form>
+                
             </div>
         </section>
         <section class="partners">

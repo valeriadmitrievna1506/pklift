@@ -18,10 +18,14 @@ body > ul > li > a:hover {
 }
 body > ul {
     width: 50%;
-    margin: 0 auto;
-    margin-top: 5%;
+    margin: 3% auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 body > ul > li {
     list-style: none;
     padding: 5px 0;
+    width: 50%;
 }
