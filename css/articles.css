@@ -16,11 +16,7 @@
 .news {
     background-color: #f1f3f4!important;
 }
-.news > .container {
-    padding-bottom: 30px!important;
-}
 .news-block {
-    margin: 0!important;
     flex-wrap: wrap;
 }
 .news-item {

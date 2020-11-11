@@ -262,6 +262,7 @@ input[type="submit"]:hover {
 .partners-swiper {
   margin-top: 35px;
   margin-bottom: 30px;
+  padding: 0!important;
 }
 .partner-slide {
   border-radius: 2px;

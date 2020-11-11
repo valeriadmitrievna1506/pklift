@@ -227,5 +227,6 @@ input[type="submit"] {
   width: 47%;
 }
 .swiper-container {
-  margin: 0!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
 }
