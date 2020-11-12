@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./font/Roboto.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
+    <link rel="stylesheet" href="./mobile/common.css">
+    <link rel="stylesheet" href="./mobile/main-page.css">
+
     <title>Главная</title>
 </head>
 <body>
@@ -17,9 +20,11 @@
     <header>
       <section class="header-info">
           <div class="container flex">
-              <p><img src="./images/geo.svg" alt="">Москва, ул. Шереметьевская, д.85, стр.2</p>
-              <p><img src="./images/message.svg" alt="">info@pklift.ru</p>
-              <p><img src="./images/phone.svg" alt="">+7 (495) 782-12-26</p>
+              <div class="flex">
+                <p><img src="./images/geo.svg" alt="">Москва, ул. Шереметьевская, д.85, стр.2</p>
+                <p><img src="./images/message.svg" alt="">info@pklift.ru</p>
+                <p><img src="./images/phone.svg" alt="">+7 (495) 782-12-26</p>
+              </div>
               <div class="social flex">
                   <a class="flex" href="https://instagram.com"><img src="./images/inst.svg" alt=""></a>
                   <a class="flex" href="https://vk.com"><img src="./images/vk.svg" alt=""></a>
@@ -29,8 +34,37 @@
       <!-- /.header-info -->
       <section class="header-main">
           <div class="container flex">
-              <img id="logo" src="./images/logo.png" alt="">
-                  <ul class="flex">
+              
+            <div class="menu-burger">
+                <div id="burger-icon"></div>
+                <div id="dropdown-burger">
+                  <div class="dropdown-burger">
+                    <div class="menu-burger-point">Анализы
+                      <ul>
+                        <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы</a></li>
+                        <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы по видам исследований</a></li>
+                      </ul>
+                    </div>
+                    <div class="menu-burger-point">Медкнижка
+                      <ul>
+                        <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Медкнижка</a></li>
+                        <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Цены</a></li>
+                      </ul>
+                    </div>
+                    <div class="menu-burger-point">Профосмотры
+                      <ul>
+                        <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Профосмотры</a></li>
+                        <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Цены</a></li>
+                      </ul>
+                    </div>
+                    <a href="http://www.mobil-lab.ru/">Сотрудничество</a>
+                    <a href="https://www.mobil-med.org/search/">Поиск</a>
+                  </div>
+                </div>
+            </div>
+
+                <img id="logo" src="./images/logo.png" alt="">
+                <ul class="flex">
                   <li><a href="./index.html">Главная</a></li>
                   <li><a class="flex" href="#">Услуги<img src="./images/expand-header.svg" alt="">
                   <div class="header-menu-dropdown">
@@ -53,10 +87,12 @@
                   </li>
                   <li><a href="./vacancies.html">Вакансии</a></li>
                   <li><a href="./contacts.html">Контакты</a></li>
-                  </ul>
-              <button class="header-button btn btn-primary" type="button" data-toggle="modal" data-target="#ModalCenter">
+                </ul>
+                <div class="call-button"></div>
+                
+                <button class="header-button" type="button">
                 Заказать звонок
-              </button>
+                </button>
 
               <!-- Modal -->
               <!-- <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog"
@@ -361,6 +397,20 @@
                       <a href="./trust.html">Нам доверяют</a>
                   </div>
                   <div class="footer-links-column flex">
+                    <a href="./lift_installation.html">Монтаж лифтов</a>
+                    <a href="./freight_lifts.html">Грузовые лифты</a>
+                    <a href="./elevators.html">Эскалаторы</a>
+                    <a href="./diagnostics.html">Диагностика</a>
+                    <a href="./lift_shafts.html">Шахты лифтов</a>
+                    <a href="./decorating.html">Отделка лифтовой кабины</a>
+                    <a href="./lift_portals.html">Лифтовые порталы</a>
+                  </div>
+                  <div class="footer-links-column flex">
+                    <a href="./company.html">О компании</a>
+                    <a href="./gallery.html">Галерея</a>
+                    <a href="./articles.html">Статьи</a>
+                    <a href="">Новости</a>
+                    <a href="./trust.html">Нам доверяют</a>
                     <a href="./lift_installation.html">Монтаж лифтов</a>
                     <a href="./freight_lifts.html">Грузовые лифты</a>
                     <a href="./elevators.html">Эскалаторы</a>

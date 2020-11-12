@@ -1,0 +1,146 @@
+@media (max-width: 320px) {
+  /* common */
+
+  .container {
+    width: 90%;
+  }
+  .section-title {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .more-info-button {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 30px;
+  }
+
+  /* header-info */
+
+  .header-info > .container {
+    width: 100%;
+  }
+  .header-info > .container > div:first-of-type {
+    display: block;
+    margin-right: 15px;
+  }
+  .header-info > .container > div > p {
+    margin: 0;
+  }
+  .header-info > .container > div > p:nth-of-type(2) {
+    text-decoration: underline;
+  }
+  .header-info > .container > div > p > img {
+    display: none;
+  }
+  .header-info > .container > div > p:last-of-type {
+    display: none;
+  }
+  .header-info > .container > .social > a {
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  /* header-main */
+
+  .menu-burger,
+  .call-button {
+    display: block;
+  }
+  .header-main > .container > ul,
+  .header-main > .container > .header-button {
+    display: none;
+  }
+  #logo {
+    position: static;
+    width: 70px;
+  }
+
+  /* main-footer */
+
+  .main-footer > .container {
+    flex-wrap: wrap;
+  }
+  .main-footer > .container > div {
+    width: 100%;
+  }
+  .footer-info {
+    margin: 0;
+    margin-top: 100px;
+  }
+  .footer-info > p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+  }
+  .footer-info > div {
+    width: 85%;
+  }
+  .footer-info > div > button {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer-links-column {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-links-column:nth-of-type(2),
+  .footer-links-column:nth-of-type(3) {
+    display: none;
+  }
+  .footer-links-column:last-of-type {
+    display: flex;
+  }
+  .footer-links-column > a {
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+
+  /* footer-extra */
+
+  .footer-extra > .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .footer-extra > .container > p {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 12px 0;
+  }
+
+  /* promo */
+
+  .promo {
+    background-position: 45% 0;
+  }
+  .promo > .container {
+    padding-top: 9px;
+    padding-bottom: 13px;
+  }
+  .promo-title {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    margin-bottom: 11px;
+    width: 50%;
+    color: #fff;
+  }
+  .promo > .container > .header-button {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 5px 12px;
+  }
+}
