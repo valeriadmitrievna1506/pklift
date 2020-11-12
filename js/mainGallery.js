@@ -8,11 +8,11 @@ var galleryMainPageSwiper = new Swiper('.gallery-swiper', {
         prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-        400: {
+        500: {
           slidesPerView: 4,
           spaceBetween: 30,
         },
-        300: {
+        100: {
             slidesPerView: 1,
             spaceBetween: 5,
         }
