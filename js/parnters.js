@@ -14,7 +14,7 @@ var partnersMainPageSwiper = new Swiper('.partners-swiper', {
         },
         300: {
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 5,
         }
     },
   });
