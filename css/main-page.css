@@ -13,12 +13,14 @@
   width: 23%;
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   margin-bottom: 2.66%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
   padding: 15px 25px;
+  box-shadow: inset 0px -90px 100px -70px rgba(44, 56, 94, 1);
 }
 .services-item:first-of-type {
   width: 48.66%;
@@ -28,11 +30,11 @@
   color: #fff;
   font-size: 14px;
   line-height: 16px;
-  font-family: 'Roboto Bold';
+  font-family: "Roboto Bold";
 }
 .services-item:hover {
-  background-color: #3b63b7!important;
-  background-image: none!important;
+  background-color: #3b63b7 !important;
+  background-image: none !important;
   justify-content: space-between;
   padding-top: 20px;
 }
@@ -112,7 +114,7 @@
 .item-title {
   font-size: 18px;
   color: #3b63b7;
-  font-family: 'Roboto Bold';
+  font-family: "Roboto Bold";
 }
 .news-item > .white-text {
   color: #000;
@@ -158,7 +160,7 @@
   flex-basis: 23%;
   border-radius: 2px;
   padding: 43px 18px 18px 18px;
-  height: 200px!important;
+  height: 200px !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -172,7 +174,7 @@
   display: none;
 }
 .gallery-item:hover {
-  background-image: none!important;
+  background-image: none !important;
 }
 .gallery-item:hover > img:first-of-type {
   display: block;
@@ -180,7 +182,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  display: none!important;
+  display: none !important;
 }
 .slider-navigation {
   justify-content: flex-end;
@@ -241,10 +243,10 @@ p > a {
   text-decoration: underline;
 }
 input[type="submit"] {
-  background-color: #5495ff!important;
+  background-color: #5495ff !important;
 }
 input[type="submit"]:hover {
-  background-color: #3d77d4!important;
+  background-color: #3d77d4 !important;
 }
 .feedback > .container > .white-text {
   margin-left: 7%;
@@ -262,7 +264,7 @@ input[type="submit"]:hover {
 .partners-swiper {
   margin-top: 35px;
   margin-bottom: 30px;
-  padding: 0!important;
+  padding: 0 !important;
 }
 .partner-slide {
   border-radius: 2px;
@@ -270,4 +272,3 @@ input[type="submit"]:hover {
 }
 
 /* ****************************************************** */
-

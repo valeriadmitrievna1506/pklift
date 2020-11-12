@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   /* services */
 
   .services > .container {
@@ -11,7 +11,7 @@
   }
   .services-block > .services-item {
     width: 100%;
-    height: 180px !important;
+    height: 220px;
   }
 
   /* promo 1 */
@@ -100,24 +100,34 @@
 
   .gallery {
     background-color: #fff;
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
   }
   .gallery-item {
     flex-basis: 100% !important;
     width: 100% !important;
+    background-repeat: no-repeat;
+    height: 230px !important;
+    background-size: cover;
   }
   .slider-navigation {
     justify-content: center;
   }
 
+  .slider-navigation > img {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
   /* feedback */
 
   .feedback > .container {
-      padding-top: 26px;
-      padding-bottom: 28px;
+    padding-top: 26px;
+    padding-bottom: 28px;
   }
   .feedback > .container > .section-title {
-      margin-bottom: 25px!important;
+    margin-bottom: 25px !important;
   }
   .feedback > .container > form {
     flex-direction: column;
@@ -127,34 +137,43 @@
     flex-direction: column;
   }
   .feedback > .container > form > .flex > input {
-      width: 100%!important;
-      margin: 0!important;
-      margin-bottom: 7px!important;
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 7px !important;
   }
   .feedback > .container > form > p {
-      text-align: center;
-      font-size: 10px;
-      line-height: 12px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
   }
   .feedback > .container > form > p:first-of-type {
-      margin-top: 17px;
-      margin-bottom: 12px;
+    margin-top: 17px;
+    margin-bottom: 12px;
   }
   .feedback > .container > form > .flex > input[type="submit"] {
-      margin-top: 14px!important;
-      width: 62%!important;
-      font-size: 14px;
-      line-height: 18px;
+    margin-top: 14px !important;
+    width: 62% !important;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   /* partners */
 
   .partners {
-      background-color: #fff;
+    background-color: #fff;
   }
   .partners > .container {
-      padding-top: 15px;
-      padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 50px;
   }
+}
 
+@media (max-width: 330px) {
+    .services-block > .services-item {
+        width: 100%;
+        height: 180px;
+      }
+      .gallery-item {
+        height: 200px !important;
+      }
 }
