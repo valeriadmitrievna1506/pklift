@@ -1,6 +1,7 @@
 .title {
     background-image: url(../images/Rectangle\ 615.png);
     background-size: cover;
+    background-position: center center;
     padding-top: 25px;
     padding-bottom: 60px;
     background-repeat: no-repeat;

@@ -4,6 +4,7 @@
     padding-top: 25px;
     padding-bottom: 60px;
     background-repeat: no-repeat;
+    background-position: center center;
     color: #fff;
 }
 .title > * > p:first-of-type {
