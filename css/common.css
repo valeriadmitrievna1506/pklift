@@ -89,9 +89,7 @@ li {
 .header-main {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-}
-.header-main > .container > ul {
-  margin-left: 17%;
+  position: relative;
 }
 .header-main > .container > ul > li > a {
   padding: 31px 0;
@@ -104,6 +102,7 @@ li {
 }
 .header-main > .container > ul {
   width: 60%;
+  margin-left: 17%;
 }
 .header-menu-dropdown {
   position: absolute;
@@ -233,8 +232,10 @@ li {
 .footer-extra > .container {
   padding: 13px 0;
 }
-.footer-extra > .container > p {
+.footer-extra > .container > p,
+.footer-extra > .container > a {
   font-size: 12px;
+  line-height: 16px;
 }
 .footer-extra > * > a {
   color: #fff;
@@ -295,7 +296,16 @@ hr {
   height: 36px;
   border-radius: 2px;
   background-color: #3b63b7;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+.closed {
+  background-image: url(../images/mobile_menu.png);
+}
+.opened {
+  background-image: url(../images/mobile_menu_close.png);
+}
+
 #dropdown-burger,
 .call-button,
 .footer-links-column:last-of-type {
@@ -305,5 +315,49 @@ hr {
   width: 36px;
   height: 36px;
   background-color: #fff;
-  outline: 1px solid red;
+  background-image: url(../images/call_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#dropdown-burger {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  background-color: #3b63b7;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+.dropdown-burger,
+.menu-burger-dropdown > div {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-burger > a,
+.dropdown-burger > div > p,
+.menu-burger-dropdown > div > a {
+  color: #fff;
+}
+.dropdown-burger > a,
+.dropdown-burger > div > p {
+  padding: 10px 15px;
+  border-bottom: 1px solid #648bde;
+  justify-content: flex-start;
+}
+.dropdown-burger > div > p > img {
+  margin-left: 12px;
+  margin-bottom: 2px;
+}
+
+.menu-burger-dropdown {
+  display: none;
+}
+.menu-burger-dropdown > div > a {
+  background-color: #6087da;
+  padding: 10px 15px;
+}
+
+.dropdown-burger > div > a:hover > .menu-burger-dropdown {
+  display: block;
 }

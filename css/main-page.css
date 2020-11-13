@@ -157,7 +157,6 @@
 }
 .gallery-item {
   background-color: #3b63b7;
-  flex-basis: 23%;
   border-radius: 2px;
   padding: 43px 18px 18px 18px;
   height: 200px !important;

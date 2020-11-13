@@ -8,9 +8,17 @@ var partnersMainPageSwiper = new Swiper('.partners-swiper', {
         prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-        500: {
+        1250: {
           slidesPerView: 4,
           spaceBetween: 30,
+        },
+        1100: {
+            slidesPerView: 3,
+            spaceBetween: screen.width * 0.02,
+          },
+        700: {
+            slidesPerView: 2,
+            spaceBetween: 20,
         },
         100: {
             slidesPerView: 1,
