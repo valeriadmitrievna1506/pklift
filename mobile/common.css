@@ -149,6 +149,9 @@
     padding-left: 25px;
     width: 100%;
   }
+  .footer-info > p:first-of-type {
+    width: 100%;
+  }
   .footer-info > div {
     width: auto;
   }
