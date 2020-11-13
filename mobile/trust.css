@@ -1,0 +1,19 @@
+@media (max-width: 950px) {
+    .sertificates-item {
+        height: 260px;
+        padding: 20px;
+    }
+    .sertificates-item > img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .sertificates-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sertificates-item {
+        margin: 10px 10px
+    }
+}

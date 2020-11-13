@@ -39,6 +39,9 @@
 .news-item {
     flex-basis: 23%!important;
 }
+.news-item > .item-title {
+    line-height: 20px;
+}
 
 
 .articles-navigation {

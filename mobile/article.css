@@ -1,0 +1,48 @@
+@media (max-width: 1150px) {
+    .share-arcticle {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .text-page > .container > img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .text {
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .text-title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .text-page > .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .share-arcticle,
+    .article-footer > a  {
+        width: 100%;
+    }
+    .article-footer {
+        flex-wrap: wrap;
+    }
+    .share-arcticle {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 470px) {
+    .text-title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}

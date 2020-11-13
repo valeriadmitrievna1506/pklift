@@ -48,9 +48,13 @@ nav > p:hover {
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
-.gallery-block > img {
-    width: 32%;
-    margin-bottom: 2%;
+.gallery-block > .img {
+    width: 31%;
+    height: 270px;
+    margin-bottom: 3%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .focused-block {
     display: flex;
