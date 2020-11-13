@@ -202,6 +202,18 @@
   }
 }
 
+@media (max-width: 700px) {
+  .title {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .title > * > p:first-of-type {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 650px) {
   .promo {
     background-position: 20% 0;
@@ -243,6 +255,10 @@
   .scrollup {
     right: 30px;
     bottom: 30px;
+  }
+  .title {
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 
   /* header-info */

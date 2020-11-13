@@ -91,15 +91,6 @@
     height: 280px;
     padding-left: 100%;
   }
-  .title {
-    padding-top: 15px;
-    padding-bottom: 30px;
-  }
-  .title > * > p:first-of-type {
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 12px;
-  }
 }
 
 @media (max-width: 640px) {
@@ -113,13 +104,6 @@
     width: 48%;
     margin: 15px 0;
   }
-}
-
-@media (max-width: 550px) {
-    .title {
-        padding-top: 10px;
-        padding-bottom: 20px;
-      }
 }
 
 @media (max-width: 415px) {

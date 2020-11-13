@@ -327,7 +327,7 @@ hr {
   width: 100%;
   z-index: 200;
   background-color: #3b63b7;
-  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
 }
 .dropdown-burger,
 .menu-burger-dropdown > div {

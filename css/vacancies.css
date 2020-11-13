@@ -32,6 +32,7 @@
 
 .required > .container {
     flex-wrap: wrap;
+    align-items: flex-start;
     padding: 50px 0;
 }
 .text-block > p {
@@ -60,4 +61,5 @@
 }
 .required > .container > img {
     margin-top: 50px;
+    width: 100%;
 }
