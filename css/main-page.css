@@ -36,6 +36,7 @@
   background-color: #3b63b7 !important;
   background-image: none !important;
   justify-content: space-between;
+  box-shadow: none;
   padding-top: 20px;
 }
 .services-item > .white-text,

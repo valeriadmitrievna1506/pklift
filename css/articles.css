@@ -17,8 +17,14 @@
 .news {
     background-color: #f1f3f4!important;
 }
-.news-block {
+.news-block > .flex {
     flex-wrap: wrap;
+    display: none;
+}
+.news-block > .focused-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .news-item {
     margin-bottom: 30px!important;
@@ -57,8 +63,9 @@ button.arrow {
     background-color: #fff;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
 }
-.navigation-number {
+.articles-navigation > li {
     font-size: 16px;
     justify-content: center;
     width: 47px;
@@ -69,4 +76,8 @@ button.arrow {
 .nn-highlighted {
     background-color: #212634;
     color: #fff;
+}
+
+.navigation-number {
+    cursor: pointer;
 }

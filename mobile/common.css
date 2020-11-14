@@ -14,6 +14,9 @@
   .footer-extra > .container > a {
     width: 48%;
   }
+  .non-scroll {
+    padding: 0;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -259,6 +262,10 @@
   .title {
     padding-top: 10px;
     padding-bottom: 20px;
+  }
+
+  #modal-window {
+    margin-top: 25%;
   }
 
   /* header-info */
