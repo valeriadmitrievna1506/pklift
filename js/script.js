@@ -1,4 +1,5 @@
 $('#input-tel').mask('+7 (999) 999 99 99');
+$('#input-tel-m').mask('+7 (999) 999 99 99');
 
 $(function() {
     $('.scrollup').click(function() {
@@ -34,3 +35,12 @@ dropdownMenuPoint[1].addEventListener('click', function() {
   $(dropdownMenuPoint[1].childNodes[2]).slideToggle(700);
 });
 
+$('.modal-button').click(function() {
+  $('#MODAL').fadeToggle(700);
+  document.querySelector('body').classList = "non-scroll";
+});
+
+$('#modal-window > p:last-of-type').click(function() {
+  $('#MODAL').fadeToggle(700);
+  document.querySelector('body').classList = "";
+});

@@ -132,6 +132,10 @@
     margin: 7px 0;
     height: 170px;
   }
+  .service-swiper-navigation > img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 350px) {

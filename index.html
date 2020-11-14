@@ -59,7 +59,7 @@
                                 <a href="./company.html">О компании</a>
                                 <a href="./gallery.html">Галерея</a>
                                 <a href="./articles.html">Статьи</a>
-                                <a href="">Новости</a>
+                                <a href="./articles.html">Новости</a>
                                 <a href="./trust.html">Нам доверяют</a>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-                <img id="logo" src="./images/logo.png" alt="PK Lift">
+                <a href="./index.html"><img id="logo" src="./images/logo.png" alt="PK Lift"></a>
                 <ul class="flex">
                   <li><a href="./index.html">Главная</a></li>
                   <li><a class="flex" href="#">Услуги<img src="./images/expand-header.svg" alt="">
@@ -88,40 +88,31 @@
                   <div class="header-menu-dropdown">
                       <a href="./gallery.html">Галерея</a>
                       <a href="./articles.html">Статьи</a>
-                      <a href="">Новости</a>
+                      <a href="./articles.html">Новости</a>
                       <a href="./trust.html">Нам доверяют</a>
                   </div>
                   </li>
                   <li><a href="./vacancies.html">Вакансии</a></li>
                   <li><a href="./contacts.html">Контакты</a></li>
                 </ul>
-                <div class="call-button"></div>
+                <div class="call-button modal-button"></div>
                 
-                <button class="header-button" type="button">
+                <button class="header-button modal-button" type="button">
                 Заказать звонок
                 </button>
 
               <!-- Modal -->
-              <!-- <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="ModalCenter" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
+              <div id="MODAL">
+                <form id="modal-window">
+                      <p>Заказать звонок</p>
+                      <input type="text" name="name" id="input-name-m" placeholder="Введите Ваше имя">
+                      <input required type="email" name="email" id="input-email-m" placeholder="Введите Ваш E-mail*"
+                          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                      <input required type="tel" name="tel" id="input-tel-m" placeholder="+7 (___) ___ __ __*">
+                      <input type="submit" class="header-button" value="Заказать звонок">
+                      <p>Отмена</p>
+                </form>
+            </div>
 
           </div>
       </section>
@@ -132,14 +123,14 @@
         <section class="promo">
             <div class="container">
                 <p class="promo-title">Техническое обслуживание и продажа лифтового оборудования в Москве и регионах</p>
-                <button class="header-button">Заказать звонок</button>
+                <button class="header-button modal-button">Заказать звонок</button>
             </div>
         </section>
         <section class="services">
             <div class="container">
                 <p class="section-title">Услуги</p>
                 <div class="services-block flex">
-                    <a href="#" class="services-item" style="background-image: url(./images/lift-installation.png);">
+                    <a href="./lift_installation.html" class="services-item" style="background-image: url(./images/lift-installation.png);">
                         <p class="services-item-text">Монтаж лифтов</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -150,7 +141,7 @@
                             <button class="more-info-button">Подробнее</button>
 
                     </a>
-                    <a href="#" class="services-item" style="background-image: url(./images/Rectangle\ 596.png);">
+                    <a href="./freight_lifts.html" class="services-item" style="background-image: url(./images/Rectangle\ 596.png);">
                         <p class="services-item-text">Грузовые лифты</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -161,7 +152,7 @@
                         <button class="more-info-button">Подробнее</button>
 
                     </a>
-                    <a href="#" class="services-item" style="background-image: url(./images/Rectangle\ 596-1.png);">
+                    <a href="./elevators.html" class="services-item" style="background-image: url(./images/Rectangle\ 596-1.png);">
                         <p class="services-item-text">Эскалаторы</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -172,7 +163,7 @@
                         <button class="more-info-button">Подробнее</button>
 
                     </a>
-                    <a href="#" class="services-item" style="background-image: url(./images/Rectangle\ 29.png);">
+                    <a href="./diagnostics.html" class="services-item" style="background-image: url(./images/Rectangle\ 29.png);">
                         <p class="services-item-text">Диагностика</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -183,7 +174,7 @@
                         <button class="more-info-button">Подробнее</button>
 
                     </a>
-                    <a href="#" class="services-item" style="background-image: url(./images/Rectangle\ 598.png);">
+                    <a href="./lift_shafts.html" class="services-item" style="background-image: url(./images/Rectangle\ 598.png);">
                         <p class="services-item-text">Монтаж и изготовление шахты лифтов</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -194,7 +185,7 @@
                         <button class="more-info-button">Подробнее</button>
 
                     </a>
-                    <a href="#" class="services-item" style="background-image: url(./images/Rectangle\ 599.png);">
+                    <a href="./decorating.html" class="services-item" style="background-image: url(./images/Rectangle\ 599.png);">
                         <p class="services-item-text">Отделка лифтовых кабин и оформление лифтовых дверей</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -205,7 +196,7 @@
                         <button class="more-info-button">Подробнее</button>
 
                     </a>
-                    <a href="#" class="services-item" style="background-image: url(./images/Rectangle\ 600.png);">
+                    <a href="./lift_portals.html" class="services-item" style="background-image: url(./images/Rectangle\ 600.png);">
                         <p class="services-item-text">Лифтовые порталы</p>
                         <img src="./images/right-arrow.svg" alt="">
 
@@ -246,7 +237,7 @@
             <div class="container">
                 <p class="section-title">Новости</p>
                 <div class="news-block flex">
-                    <a href="#" class="news-item flex">
+                    <a href="./article.html" class="news-item flex">
                         <p class="news-date">24 января 2020</p>
                         <p class="item-title">
                             Был заключен важный договор на техническое обслуживание 4 лифтов
@@ -257,7 +248,7 @@
                         </p>
                         <img src="./images/right-arrow.svg" alt="">
                     </a>
-                    <a href="#" class="news-item flex">
+                    <a href="./article.html" class="news-item flex">
                         <p class="news-date">25 декабря 2020</p>
                         <p class="item-title">
                             С Наступающим Новым Годом!
@@ -268,7 +259,7 @@
                         </p>
                         <img src="./images/right-arrow-blue.svg" alt="">
                     </a>
-                    <a href="#" class="news-item flex">
+                    <a href="./article.html" class="news-item flex">
                         <p class="news-date">23 декабря 2019</p>
                         <p class="item-title">
                             Подписан договор на установку оборудования "МогилёвЛифтМаш"
@@ -280,7 +271,7 @@
                         <img src="./images/right-arrow-blue.svg" alt="">
                     </a>
                 </div>
-                <a href="#">Все новости</a>
+                <a href="./articles.html">Все новости</a>
             </div>
         </section>
         <section class="gallery">
@@ -291,29 +282,24 @@
                     <!-- Additional required wrapper -->
                     <div class="gallery-block swiper-wrapper flex">
                         <!-- Slides -->
-                        <a href="#" class="gallery-item swiper-slide" style="background-image: url(./images/our-autos.png);">
+                        <a href="./gallery.html" class="gallery-item swiper-slide" style="background-image: url(./images/our-autos.png);">
                             <img src="./images/copy.svg" alt="">
                             <p class="gallery-item-text services-item-text">Наши Автомобили</p>
                             <img src="./images/right-arrow.svg" alt="">
                         </a>
-                        <a href="#" class="gallery-item swiper-slide" style="background-image: url(./images/lift-installation-gallery.png);">
+                        <a href="./gallery.html" class="gallery-item swiper-slide" style="background-image: url(./images/lift-installation-gallery.png);">
                             <img src="./images/copy.svg" alt="">
                             <p class="gallery-item-text services-item-text">Монтаж лифтового оборудования</p>
                             <img src="./images/right-arrow.svg" alt="">
                         </a>
-                        <a href="#" class="gallery-item swiper-slide" style="background-image: url(./images/warehouse-gallery.png);">
+                        <a href="./gallery.html" class="gallery-item swiper-slide" style="background-image: url(./images/warehouse-gallery.png);">
                             <img src="./images/copy.svg" alt="">
                             <p class="gallery-item-text services-item-text">Наш склад</p>
                             <img src="./images/right-arrow.svg" alt="">
                         </a>
-                        <a href="#" class="gallery-item swiper-slide" style="background-image: url(./images/workers-gallery.png);">
+                        <a href="./gallery.html" class="gallery-item swiper-slide" style="background-image: url(./images/workers-gallery.png);">
                             <img src="./images/copy.svg" alt="">
                             <p class="gallery-item-text services-item-text">Наши сотрудники</p>
-                            <img src="./images/right-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="gallery-item swiper-slide" style="background-image: url(./images/our-autos.png);">
-                            <img src="./images/copy.svg" alt="">
-                            <p class="gallery-item-text services-item-text">Наши Автомобили</p>
                             <img src="./images/right-arrow.svg" alt="">
                         </a>
                     </div>
@@ -383,7 +369,7 @@
                   <p class="white-text" style="background-image: url(./images/phone.svg);">+7 (495) 782-12-26</p>
                   <p class="white-text" style="background-image: url(./images/message.svg);">info@pklift.ru</p>
                   <div class="flex">
-                      <button class="header-button">Заказать звонок</button>
+                      <button class="header-button modal-button">Заказать звонок</button>
                       <div class="social flex">
                           <a class="flex" href="https://instagram.com"><img src="./images/inst.svg" alt=""></a>
                           <a class="flex" href="https://vk.com"><img src="./images/vk.svg" alt=""></a>
@@ -400,7 +386,7 @@
                       <a href="./company.html">О компании</a>
                       <a href="./gallery.html">Галерея</a>
                       <a href="./articles.html">Статьи</a>
-                      <a href="">Новости</a>
+                      <a href="./articles.html">Новости</a>
                       <a href="./trust.html">Нам доверяют</a>
                   </div>
                   <div class="footer-links-column flex">
@@ -416,7 +402,7 @@
                     <a href="./company.html">О компании</a>
                     <a href="./gallery.html">Галерея</a>
                     <a href="./articles.html">Статьи</a>
-                    <a href="">Новости</a>
+                    <a href="./articles.html">Новости</a>
                     <a href="./trust.html">Нам доверяют</a>
                     <a href="./lift_installation.html">Монтаж лифтов</a>
                     <a href="./freight_lifts.html">Грузовые лифты</a>
