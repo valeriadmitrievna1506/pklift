@@ -53,3 +53,16 @@ $('#MODAL').click (function () {
     document.querySelector('body').classList = "";
   }
 });
+
+var bannerSwiper = new Swiper('.banner-container', {
+  speed: 400,
+  spaceBetween: 0,
+  loop: true,
+  navigation: {
+    nextEl: '.banner-next',
+    prevEl: '.banner-prev',
+  },
+  autoplay: {
+    delay: 2000,
+  },
+});

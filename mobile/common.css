@@ -20,9 +20,8 @@
 }
 
 @media (max-width: 1050px) {
-  .promo > .container {
-    padding-top: 30px;
-    padding-bottom: 40px;
+  .banner-slide {
+    padding: 30px 10% 40px 10%;
   }
   .promo-title {
     font-size: 24px;
@@ -218,12 +217,11 @@
 }
 
 @media (max-width: 650px) {
-  .promo {
-    background-position: 20% 0;
+  .banner-slide {
+    background-position: 45% 0;
   }
-  .promo > .container {
-    padding-top: 20px;
-    padding-bottom: 30px;
+  .banner-slide {
+    padding: 20px 10% 30px 10%;
   }
   .promo-title {
     font-size: 14px;
@@ -231,7 +229,7 @@
     margin-bottom: 15px;
     width: 50%;
   }
-  .promo > .container > .header-button {
+  .banner-slide > .header-button {
     font-size: 10px;
     line-height: 14px;
     padding: 5px 12px;
@@ -299,8 +297,26 @@
     width: 70px;
   }
 
-  .promo {
-    background-position: 40% 0;
+  .banner-slide {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .banner-prev,
+  .banner-next {
+    top: 80%;
+    width: 20px !important;
+  }
+  .banner-prev::after,
+  .banner-next::after {
+    width: 100% !important;
+  }
+  .banner-next {
+    left: auto;
+    right: 20px;
+  }
+  .banner-prev {
+    left: auto;
+    right: 100px;
   }
 
 }
