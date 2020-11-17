@@ -27,7 +27,7 @@ $('#input-tel-m').mask('+7 (999) 999 99 99');
 let menuClick = 0;
 
 $('#burger-icon').click(function() {
-  $('#dropdown-burger').slideToggle(700);
+  $('#dropdown-burger').slideToggle(300);
   menuClick += 1;
 
   if (menuClick % 2 == 1) {
@@ -43,11 +43,11 @@ let dropdownMenuPoint = document.querySelectorAll('.dropdown-burger > div');
 
 
 dropdownMenuPoint[0].addEventListener('click', function() {
-  $(dropdownMenuPoint[0].childNodes[2]).slideToggle(700);
+  $(dropdownMenuPoint[0].childNodes[2]).slideToggle(300);
 });
 
 dropdownMenuPoint[1].addEventListener('click', function() {
-  $(dropdownMenuPoint[1].childNodes[2]).slideToggle(700);
+  $(dropdownMenuPoint[1].childNodes[2]).slideToggle(300);
 });
 
 $('.modal-button').click(function() {
