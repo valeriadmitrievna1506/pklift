@@ -21,7 +21,7 @@
 
 @media (max-width: 1050px) {
   .banner-slide {
-    padding: 30px 10% 40px 10%;
+    padding: 30px 0 40px 0;
   }
   .promo-title {
     font-size: 24px;
@@ -221,7 +221,7 @@
     background-position: 45% 0;
   }
   .banner-slide {
-    padding: 20px 10% 30px 10%;
+    padding: 20px 0 30px 0;
   }
   .promo-title {
     font-size: 14px;
@@ -229,7 +229,7 @@
     margin-bottom: 15px;
     width: 50%;
   }
-  .banner-slide > .header-button {
+  .banner-slide > .container > .header-button {
     font-size: 10px;
     line-height: 14px;
     padding: 5px 12px;
@@ -327,7 +327,7 @@
   .promo {
     background-position: 40% 0;
   }
-  .promo > .container {
+  .banner-slide {
     padding-top: 9px;
     padding-bottom: 13px;
   }
@@ -339,9 +339,13 @@
     width: 50%;
     color: #fff;
   }
-  .promo > .container > .header-button {
+  .banner-slide > .container > .header-button {
     font-size: 10px;
     line-height: 14px;
     padding: 5px 12px;
+  }
+  .banner-prev,
+  .banner-next {
+    top: 60%;
   }
 }

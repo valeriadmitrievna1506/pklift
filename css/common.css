@@ -164,7 +164,7 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 64px 10% 70px 10%;
+  padding: 64px 0 70px 0;
 }
 .promo-title {
   font-size: 30px;
@@ -174,7 +174,7 @@ li {
   width: 45%;
   color: #fff;
 }
-.banner-slide > .header-button {
+.banner-slide > .container > .header-button {
   background-color: #5495ff;
 }
 .banner-container:hover > .banner-prev,

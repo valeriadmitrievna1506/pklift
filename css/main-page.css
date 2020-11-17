@@ -23,6 +23,7 @@
   box-shadow: inset 0px -150px 100px -70px rgba(44, 56, 94, 1);
 }
 .services-item:first-of-type {
+  /* width: 48.66%; */
   width: 630px;
 }
 .services-item-text {
