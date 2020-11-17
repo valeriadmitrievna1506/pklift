@@ -10,10 +10,6 @@
     flex-wrap: wrap;
     align-items: baseline;
   }
-  .footer-extra > .container > p,
-  .footer-extra > .container > a {
-    width: 48%;
-  }
   .non-scroll {
     padding: 0;
   }

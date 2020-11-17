@@ -1,12 +1,27 @@
 $('#input-tel').mask('+7 (999) 999 99 99');
 $('#input-tel-m').mask('+7 (999) 999 99 99');
 
-$(function() {
+
+  $(function() {
+    // при нажатии на кнопку scrollup
     $('.scrollup').click(function() {
+      // переместиться в верхнюю часть страницы
       $("html, body").animate({
         scrollTop:0
       },600);
-    });
+    })
+  })
+  // при прокрутке окна (window)
+  $(window).scroll(function() {
+    // если пользователь прокрутил страницу более чем на 200px
+    if ($(this).scrollTop()>200) {
+      // то сделать кнопку scrollup видимой
+      $('.scrollup').fadeIn(0);
+    }
+    // иначе скрыть кнопку scrollup
+    else {
+      $('.scrollup').fadeOut(300);
+    }
   });
 
 let menuClick = 0;

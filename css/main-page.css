@@ -11,6 +11,8 @@
 .services-item {
   height: 180px;
   width: 23%;
+  position: relative;
+  background-color: rgb(161, 161, 161);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -21,10 +23,32 @@
   align-items: flex-start;
   padding: 15px 25px;
   box-shadow: inset 0px -150px 100px -70px rgba(44, 56, 94, 1);
+  transition: 0ms;
 }
+
+.service-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 25px;
+  background-color: #3b63b7;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.service-hover > .white-text {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 .services-item:first-of-type {
-  /* width: 48.66%; */
-  width: 630px;
+  width: 48.66%;
+  /* width: 630px; */
 }
 .services-item-text {
   margin-bottom: 10px;
@@ -33,30 +57,8 @@
   line-height: 16px;
   font-family: "Roboto Bold";
 }
-.services-item:hover {
-  background-color: #3b63b7 !important;
-  background-image: none !important;
-  justify-content: space-between;
-  box-shadow: none;
-  padding-top: 20px;
-}
-.services-item > .white-text,
-.services-item > .more-info-button {
-  display: none;
-}
-.services-item:hover > img {
-  display: none;
-}
-.services-item:hover > .white-text {
-  display: inline-block;
-  font-size: 12px;
-  line-height: 18px;
-}
-.services-item:hover > .more-info-button {
-  display: block;
-}
-.services-item:hover > .services-item-text {
-  margin: 0;
+.services-item:hover > .service-hover {
+  opacity: 1;
 }
 
 /* ***************************************************** */
@@ -142,6 +144,9 @@
   float: right;
   color: #3b63b7;
   text-decoration: underline;
+}
+.news > .container > a:hover {
+  text-decoration: none;
 }
 
 /* ************************************* */
@@ -238,16 +243,21 @@
 }
 .feedback > .container > form > p {
   width: 100%;
+  font-size: 12px;
 }
 p > a {
   color: #fff;
   text-decoration: underline;
+  font-size: 12px;
+}
+p > a:hover {
+  text-decoration: none;
 }
 input[type="submit"] {
-  background-color: #5495ff !important;
+  background-color: #3683ff !important;
 }
 input[type="submit"]:hover {
-  background-color: #3d77d4 !important;
+  background-color: #5495ff !important;
 }
 .feedback > .container > .white-text {
   margin-left: 7%;

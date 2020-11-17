@@ -27,6 +27,7 @@ body {
 a {
   text-decoration: none;
   color: #000;
+  transition: 0.3s;
 }
 .header-main > .container > ul > li > a:hover,
 .header-menu-dropdown > a:hover {
@@ -85,6 +86,10 @@ li {
   width: 40px;
   justify-content: center;
   background-color: #475374;
+  transition: 0.3s;
+}
+.social > a:hover {
+  background-color: #59668C;
 }
 
 /* ************************** */
@@ -144,10 +149,10 @@ li {
   line-height: 16px;
   border: none;
   padding: 11px 32px;
-  transition: 0.6s;
+  transition: 0.4s;
 }
 .header-button:hover {
-  opacity: 0.5;
+  background-color: #2C519F;
 }
 
 /* ************************** */
@@ -175,7 +180,10 @@ li {
   color: #fff;
 }
 .banner-slide > .container > .header-button {
-  background-color: #5495ff;
+  background-color: #3683ff;
+}
+.banner-slide > .container > .header-button:hover {
+  background-color: #5495FF;
 }
 .banner-container:hover > .banner-prev,
 .banner-container:hover > .banner-next {
@@ -212,10 +220,13 @@ li {
   margin-top: 12px;
 }
 .footer-info > div > button {
-  background-color: #5495ff;
+  background-color: #3683ff;
   width: 150px;
   height: 30px;
   padding: 0;
+}
+.footer-info > div > button:hover {
+  background-color: #5495FF;
 }
 .footer-links {
   align-items: flex-start;
@@ -258,6 +269,9 @@ li {
   color: #fff;
   text-decoration: underline;
 }
+.footer-extra > * > a:hover {
+  text-decoration: none;
+}
 
 /* *********************************************************************** */
 /* *********************************************************************** */
@@ -296,6 +310,7 @@ hr {
   font-size: 20px;
   border-radius: 2px;
   cursor: pointer;
+  display: none;
   background-image: url(../images/up.svg);
   background-repeat: no-repeat;
   background-size: cover;
