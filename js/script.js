@@ -55,18 +55,8 @@ $('.modal-button').click(function() {
   document.querySelector('body').classList = "non-scroll";
 });
 
-$('#MODAL').click (function () {
-
-  if (event.target != $('#modal-window')[0]
-  && event.target != $('#modal-window > p:first-of-type')[0]
-  && event.target != $('#modal-window > input')[0]
-  && event.target != $('#modal-window > input')[1]
-  && event.target != $('#modal-window > input')[2]
-  && event.target != $('#modal-window > input')[3]
-  || event.target == $('#modal-window > p:last-of-type')[0]) {
-    $('#MODAL').fadeToggle(700);
-    document.querySelector('body').classList = "";
-  }
+$('#big-doc').click (function () {
+  console.log('cckick');
 });
 
 var bannerSwiper = new Swiper('.banner-container', {

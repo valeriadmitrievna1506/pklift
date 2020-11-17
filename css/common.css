@@ -88,7 +88,7 @@ li {
   transition: 0.3s;
 }
 .social > a:hover {
-  background-color: #59668C;
+  background-color: #59668C !important; 
 }
 
 /* ************************** */
