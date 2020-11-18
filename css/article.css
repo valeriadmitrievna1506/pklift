@@ -10,6 +10,9 @@
 .title > * > p {
   text-align: center;
 }
+.title > * > p:first-of-type > a {
+    font-size: 14px;
+}
 .section-title {
   margin-top: 25px;
   margin-bottom: 20px;
