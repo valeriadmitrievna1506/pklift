@@ -16,3 +16,11 @@ $('.gallery .container nav p').click(function (event) {
     event.target.classList = 'focused';
     $('#' + tabs[$(event.target).attr('id')]).addClass('focused-block');
 });
+
+$(function(){
+    $("a.colorbox").colorbox({
+        current:"Фото {current} из {total}",
+        width: "100%",
+        height: "70%"
+    });
+});

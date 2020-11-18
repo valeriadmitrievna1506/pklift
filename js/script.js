@@ -55,9 +55,6 @@ $('.modal-button').click(function() {
   document.querySelector('body').classList = "non-scroll";
 });
 
-$('#big-doc').click (function () {
-  console.log('cckick');
-});
 
 var bannerSwiper = new Swiper('.banner-container', {
   speed: 400,

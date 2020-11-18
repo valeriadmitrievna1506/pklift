@@ -46,3 +46,9 @@
         height: 220px;
     }
 }
+
+@media (max-width: 460px) {
+    /* #cboxWrapper {
+        width: 100% !important;
+    } */
+}
